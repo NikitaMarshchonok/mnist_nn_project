@@ -32,6 +32,6 @@ Here’s a look at the final confusion matrix and the training/validation accura
 
 Clone the repository and install dependencies:
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone 
+cd repo
 pip install -r requirements.txt
