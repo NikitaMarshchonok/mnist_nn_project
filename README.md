@@ -35,3 +35,34 @@ Clone the repository and install dependencies:
 git clone 
 cd repo
 pip install -r requirements.txt
+
+
+Running the Project
+Open the Jupyter Notebook to run the code:
+jupyter notebook
+
+The main steps in the notebook include:
+Loading and visualizing the MNIST data
+Preprocessing the data (flattening and normalizing images, one-hot encoding the labels)
+Building and compiling the MLP model
+Training and evaluating the model
+Saving the trained model (mnist_mlp_model.h5)
+Plotting performance metrics (accuracy, confusion matrix)
+
+Files in this project
+mnist_nn_project.ipynb — Jupyter notebook with complete workflow
+mnist_mlp_model.h5 — Saved Keras model
+requirements.txt — List of Python dependencies
+images/ — Folder with screenshots of the confusion matrix and accuracy curves
+
+Requirements
+All required Python libraries are listed in requirements.txt and include:
+tensorflow
+keras
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+License
+This project is open-source and free to use for learning purposes.
